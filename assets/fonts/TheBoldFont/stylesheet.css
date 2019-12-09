@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'The Bold Font';
+    src: url('TheBoldFont.eot');
+    src: url('TheBoldFont.eot?#iefix') format('embedded-opentype'),
+        url('TheBoldFont.woff2') format('woff2'),
+        url('TheBoldFont.woff') format('woff'),
+        url('TheBoldFont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

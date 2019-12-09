@@ -1,0 +1,514 @@
+.another_one {
+  margin-top: 12vh;
+}
+
+.bigger-pls {
+  font-size: 17.5px;
+}
+
+.horizontal-pic {
+  width: 80vw;
+}
+
+.horizontal-pic-half {
+  width: 25vw;
+}
+
+.actually-red {
+  color: #ff164d;
+}
+
+.subscribe_img {
+  max-width: 40vw;
+  max-height: 40vh;
+}
+
+.section_height {
+  height: calc(100vh - 75px);
+  min-height: 630px;
+  overflow: hidden;
+}
+
+header#home>div {
+  margin: 0 !important;
+}
+
+.top_padding {
+  padding-top: 73px;
+  padding-bottom: 73px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.device-container {
+  height: 85vh;
+  width: auto !important;
+}
+
+.device-container-small {
+  max-height: 70vh;
+  min-height: 40vh;
+  max-width: 20vw;
+  min-width: 10vw;
+}
+
+.flex-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-normal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#features4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#features4 header {
+  margin-bottom: 50px;
+}
+
+#features4 .info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 1.1;
+  box-sizing: border-box;
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  color: black;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.video-container video {
+  max-width: 854px;
+  max-height: 480px;
+}
+
+.low_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actually_h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+
+/*-----shit doesn't work for mobile
+
+.nopadding {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+shit doesn't work for mobile -----*/
+
+.yespadding {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.white-text {
+  color: white !important;
+}
+
+.blue-text {
+  color: #1b8ae9 !important;
+}
+
+.image-fix {
+  margin-top: 0px !important;
+  width: 100% !important;
+}
+
+.quickcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download-button {
+  max-width: 150px;
+  min-width: 100px;
+  margin: 30px 5px 0 5px;
+}
+
+.actually-h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 31px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  box-sizing: border-box;
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.diff-bg {
+  background-color: #5FACEF;
+}
+
+.epilepsia {
+  -webkit-animation: background 0.5s cubic-bezier(1, 0, 0, 1) infinite;
+  animation: background 0.5s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+@-webkit-keyframes background {
+  0% {
+    background-color: #f99;
+  }
+  33% {
+    background-color: #9f9;
+  }
+  67% {
+    background-color: #99f;
+  }
+  100% {
+    background-color: #f99;
+  }
+}
+
+@keyframes background {
+  0% {
+    background-color: #f99;
+  }
+  33% {
+    background-color: #9f9;
+  }
+  67% {
+    background-color: #99f;
+  }
+  100% {
+    background-color: #f99;
+  }
+}
+
+
+/*-- this is gonna be a hover pic change--*/
+
+#img_replacement {
+  background-image: url('/assets/images/feed_2.jpg');
+  height: auto;
+  width: auto;
+}
+
+#img_replacement:hover {
+  background-image: url('/assets/images/match_card.jpg');
+}
+
+.iconmax {
+  max-height: 44px;
+  max-width: 44px;
+  margin-top: 0px !important;
+}
+
+@media all and (max-width: 767px) {
+  .no-mob {
+    display: none;
+  }
+  .section_height {
+    height: auto !important;
+  }
+}
+
+.gradient_text {
+  background: linear-gradient(to right, #de0030, #ff7b00);
+  /* background: linear-gradient(to right,#FF164D,#ff7d27); */
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'The Bold Font', 'Bold Web', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.gradient-1 {
+  background: linear-gradient(to right, #61b5e4, #203e98);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-2 {
+  background: linear-gradient(to right, #203e98, #8f409b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-3 {
+  background: linear-gradient(to right, #e61d2f, #f68e2d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.header-bottom {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #ff7b00;
+  font-family: 'The Bold Font', 'Bold Web', sans-serif;
+}
+
+.footer-bottom {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  margin: 30px 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.backblur {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.backblur2 {
+  -webkit-filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -margin: -5px -10px -10px -5px;
+}
+
+.gradient_back {
+  background: linear-gradient(to right, #F55555, #FCCF31);
+}
+
+.dota_back {
+  background-image: url(../images/others/dota.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dota_back2 {
+  background-image: url(../images/others/dota2.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cs_back {
+  background-image: url(../images/others/csgo.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cs_back2 {
+  background-image: url(../images/others/csgo3.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fortnite_back {
+  background-image: url(../images/others/fortnite.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fortnite_back2 {
+  background-image: url(../images/others/fortnite2.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pubg_back {
+  background-image: url(../images/others/pubg.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dnd_back {
+  background-image: url(../images/others/dnd_bg.png);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pubg_back2 {
+  background-image: url(../images/others/pubg2.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lol_back {
+  background-image: url(../images/others/lol.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lol_back2 {
+  background-image: url(../images/others/lol2.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.board_back {
+  background-image: url(../images/others/boardgame.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.board_back2 {
+  background-image: url(../images/others/boardgame2.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.over_back1 {
+  background-image: url(../images/others/overwatch-top.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.over_back2 {
+  background-image: url(../images/others/overwatch-bottom.jpg);
+  /* parallax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.media_container {
+  max-height: 199px;
+  max-width: 199px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  background-color: tomato;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+a {
+  color: #ff7b00 !important;
+}
+
+.z-index-pls {
+  z-index: 50 !important;
+}
+
+
+/* non-functional parallax scrolling starts here
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.ContentContainer {
+  display: block;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+ */
+
+ol.help-gametree-list li {
+  margin: 5px 0;
+}
+
+.linked-btn {
+  color: #eee !important;
+}

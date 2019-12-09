@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Bold Web';
+    src: url('adineuePROCyr-BoldWeb.eot');
+    src: url('adineuePROCyr-BoldWeb.eot?#iefix') format('embedded-opentype'), url('adineuePROCyr-BoldWeb.woff2') format('woff2'), url('adineuePROCyr-BoldWeb.woff') format('woff'), url('adineuePROCyr-BoldWeb.ttf') format('truetype'), url('adineuePROCyr-BoldWeb.svg#adineuePROCyr-BoldWeb') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
