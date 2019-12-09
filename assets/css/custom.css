@@ -130,6 +130,11 @@ shit doesn't work for mobile -----*/
   padding-top: 50px;
 }
 
+.yesmargin {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 .white-text {
   color: white !important;
 }
@@ -511,4 +516,8 @@ ol.help-gametree-list li {
 
 .linked-btn {
   color: #eee !important;
+}
+
+.minsize {
+    min-height: 70vh;
 }
