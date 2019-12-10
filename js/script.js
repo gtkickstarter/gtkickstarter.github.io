@@ -406,10 +406,10 @@ $(window).on("load", function(){
     //alert(typeof countdown);
     if ($.fn.countdown) {
       var endDate;
-      //Automatically set countdown to current day + 3 days
+      //Automatically set countdown to current day + 14 days
       //Comment this on your production site:
       endDate = new Date();
-      endDate.setDate(endDate.getDate() + 3);
+      endDate.setDate(endDate.getDate() + 14);
 
       //Just comment code above and set necessary date to endDate variable like here:
       //endDate = '2017/12/20';
