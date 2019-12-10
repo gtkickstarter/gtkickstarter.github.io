@@ -17,6 +17,36 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/modernizr.custom.js" type="text/javascript"></script>
+      
+    <!--AMPLITUDE-->
+    <script type="text/javascript">
+          (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+          ;r.type="text/javascript"
+          ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+          ;r.crossOrigin="anonymous";r.async=true
+          ;r.src="https://cdn.amplitude.com/libs/amplitude-5.7.1-min.gz.js"
+          ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+          console.log("[Amplitude] Error: could not load SDK")}}
+          ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+          ;function s(e,t){e.prototype[t]=function(){
+          this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+          var o=function(){this._q=[];return this}
+          ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+          ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+          ;return this}
+          ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+          ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+          ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+          ;function v(e){function t(t){e[t]=function(){
+          e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+          for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+          e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+          ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+          ;e.amplitude=n})(window,document);
+
+          amplitude.getInstance().init("42adde2f8141c74a8c778d8a663203be");
+    </script>
+      
   </head>
   <body class="crowdfund-body">
     <div id="crowdfund-preloader">
@@ -164,16 +194,16 @@
         <div class="crowdfund-limit-width">
           <div class="crowdfund-carousel crowdfund-carousel-flyer owl-carousel" id="crowdfund-carousel-flyer">
             <div class="crowdfund-slide crowdfund-info-left">
-              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-bag-1.jpg');"></div>
+              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-4.jpg');"></div>
               <div class="crowdfund-slide-info crowdfund-block-color">
-                <h4 class="crowdfund-slide-title">It's Red Bag</h4>
+                <h4 class="crowdfund-slide-title">Epic gaming moments await</h4>
                 <p>The first edition of Red Bag: Fill doesn't whose fly fourth. Whales. A Sixth doesn't for blessed. Fourth set That years thing from living, appear lesser winged to don't.</p>
                 <p>Morning fish third won't. Forth let. Seed multiply There divided lights herb the fill had us from stars replenish.</p>
                 <p><a class="crowdfund-button crowdfund-fullwidth scrollto" href="#rewards">See more</a></p>
               </div>
             </div>
             <div class="crowdfund-slide">
-              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-bag-2.jpg');"></div>
+              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-5.jpg');"></div>
               <div class="crowdfund-slide-info crowdfund-block-color bg-color-green-dark">
                 <h4 class="crowdfund-slide-title">Feel freedom</h4>
                 <div class="crowdfund-slide-content">
@@ -183,7 +213,7 @@
               </div>
             </div>
             <div class="crowdfund-slide">
-              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-bag-3.jpg');"></div>
+              <div class="crowdfund-slide-bg" style="background-image:url('img/slides/slide-6.jpg');"></div>
               <div class="crowdfund-slide-info crowdfund-block-dark">
                 <h4 class="crowdfund-slide-title">Take anything</h4>
                 <div class="crowdfund-slide-content">
@@ -396,6 +426,9 @@
         </div>
       </div>
     </section>
+      
+      
+<!--
     <section class="crowdfund-section crowdfund-section-title crowdfund-color-ctrl">
       <div class="crowdfund-section-content">
         <div class="crowdfund-limit-width">
@@ -407,6 +440,7 @@
         </div>
       </div>
     </section>
+-->
       
 <!--
     <section class="crowdfund-section crowdfund-section-portfolio crowdfund-section-light crowdfund-color-ctrl" id="portfolio">
@@ -511,13 +545,13 @@
         <div class="crowdfund-limit-width">
           <div class="crowdfund-content-padding">
             <div class="crowdfund-title">
-              <h2>Some Facts about Crowdfund template</h2>
+              <h4>Do not wait for a better moment</h4>
+                <h1>Become a GameTree hero today</h1>
               <div class="crowdfund-underline"></div>
             </div>
-            <p class="crowdfund-large">Are you looking for the promo site for your crowdfunding project? Meet the Crowdfund Template! If you published your product on Kickstarter, Indiegogo or any other platform – make it more powerful and attractive with elegant modern landing page.</p>
-            <p class="crowdfund-large">Crowdfund is a high quality onepage HTML template for crowdfunding projects, startups, studios, services and more. It has modern multipurpose responsive design, clean code and documentation. Use it for product pages, portfolios, services, blogging or something else. Based on Scorpio PSD template.</p>
+            <p class="crowdfund-large">Pledge 100$ on kickstarter to make us feel good. And also so that we can buy food and stuff. In case you don't have any cash right now just go and download the app it will also help. Also don't forget to rate us on appstore and tell your friends about this amazing app. thanks.</p>
             <div class="crowdfund-text-center crowdfund-content-footer">
-              <h5>Want to keep abreast?</h5>
+              <h5>Want to keep in touch?</h5>
               <div class="crowdfund-button-container"><!-- This is just example of mailchimp form-->
 <div id="mc_embed_signup">
 <form action="//themeforest.us16.list-manage.com/subscribe/post?u=8f55f33bccbadd727ffb5c594&amp;id=62d6dc3e87" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -653,6 +687,8 @@
         </div>
       </div>
     </section>
+      
+<!--
     <section class="crowdfund-section crowdfund-section-blog crowdfund-color-ctrl" id="blog">
       <div class="crowdfund-section-content">
         <div class="crowdfund-limit-width">
@@ -739,6 +775,9 @@
         </div>
       </div>
     </section>
+-->
+      
+<!--
     <section class="crowdfund-section crowdfund-section-light crowdfund-section-contacts crowdfund-color-ctrl">
       <div class="crowdfund-section-content">
         <div class="crowdfund-limit-width">
@@ -773,6 +812,9 @@
         </div>
       </div>
     </section>
+-->
+      
+      
     <section class="crowdfund-section crowdfund-section-dark crowdfund-section-footer crowdfund-color-ctrl">
       <div class="crowdfund-section-content">
         <div class="crowdfund-limit-width">
