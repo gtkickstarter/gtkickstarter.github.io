@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="#1 app for gamers to discover friends, games, news, events, and more based on your unique tastes and personality with AI.">
+
+    <!-- og meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GameTree">
+    <meta property="og:title" content="GameTree – Gamer Discovery Network">
+    <meta property="og:description" content="#1 app for gamers to discover friends, games, news, events, and more based on your unique tastes and personality with AI.">
+    <meta property="og:url" content="http://gametree.me/index.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="http://gametree.me/assets/images/others/thumbnail.png">
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+    <meta property="fb:app_id" content="207197756294598" />
+
+    <!-- Caching -->
+    <meta http-equiv="Cache-Control" content="public">
+    <meta http-equiv="Cache-Control" content="max-age=604800, must-revalidate">
+
+    <title>GameTree – Gamer Discovery Network</title>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85683890-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-85683890-1');
+
+        var a = document.getElementsByTagName('a');
+        for (i = 0; i < a.length; i++) {
+            if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:\/\//i)) {
+                a[i].onclick = function() {
+                        _gaq.push([‘_trackEvent’, ‘outgoing_links’, this.href.replace(/^http:\/\//i, ")]);
+                                }
+                            }
+                        }
+    </script>
+    <!-- End of GA -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '113892682416006');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=113892682416006&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Facebook Pixel Code -->
+    
+    
+    <script type="text/javascript">
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript"
+      ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+      ;r.crossOrigin="anonymous";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-5.7.1-min.gz.js"
+      ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+
+      amplitude.getInstance().init("42adde2f8141c74a8c778d8a663203be");
+    </script>
+
+    <!-- favicons
+    ============================================= -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- StyleSheets
+    ============================================= -->
+
+    <!-- Library -->
+<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/fonts/TheBoldFont/stylesheet.css">
+    <link rel="stylesheet" href="assets/fonts/WebBold/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <!-- Library Stylesheets -->
+
+    <link rel="stylesheet" href="assets/lib/animsition/dist/css/animsition.min.css">
+    <link rel="stylesheet" href="assets/lib/ionicons/css/ionicons.css">
+    <link rel="stylesheet" href="assets/lib/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/playing-videogames/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/video-game/flaticon.css">
+
+    <!-- This is a carousel -->
+    <link rel="stylesheet" href="assets/lib/flexslider/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/owlcarousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/owlcarousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/owlcarousel/owl-carousel/owl.transitions.css">
+
+    <!-- Custom Template Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/colors/blue.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav-collapse" data-offset="100">
+
+
+    <!-- Wrapper & Preloader
+============================================= -->
+    <div id="zwrapper" class="zwrapper animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out" data-animsition-out-duration="800" data-page-loader-text="california">
+
+        <section id="topNavBar" class="nav-wrapper transparent red">
+            <div class="container-fluid">
+                <div id="menuzord" class="menuzord red">
+                    <a href="#" class="menuzord-brand">
+                        <div class="actually_h1" style="text-transform: uppercase !important;font-size: 36px;">
+                            <span class="no-mob gradient_text">GameTree <span style="font-size: 18px; color: #ff7b00;font-family: Montserrat, sans-serif;font-weight: normal;">Find Your Tribe</span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--/nav-wrapper-->
+
+        <header id="home" class="site-header header-fullscreen wrapper-table overlay-01" data-vide-bg="assets/videos/mk_4" data-vide-options="loop: true,
+         muted: true,
+         position: 0% 0%">
+
+            <div class="container bg valign-center">
+                <div class="row">
+                    <div class="col-md-12 flex-center">
+                        <div class="intro text-center top_padding another_one_is_gone">
+                            <div class="header-content-inner fadeInLeft animated">
+                                <h1 class="actually_h1 mb-3"><b>Lonely gaming is unfortunately a thing</b>
+                                  </h1>
+                                <h2>GameTree will change it forever</h2>
+                                
+                                    <div class="cta-content another_one pb-5">
+                                        <a href="#features1"> <button style="background-color: #de0030" class="mb-3 btn btn-cal-default clear onPageNav">LEARN MORE</button> </a>
+<!--                                        <a href="#cta"> <button style="background-color: white; color: red" class="mb-3 btn btn-cal-default clear onPageNav">GET STARTED</button> </a>-->
+                                        
+                                </div>
+                                
+                                
+                                        <div class="card subscrie-box text-center mt-5">
+                        <div id="mc_embed_signup" class="text-center">
+                        <form action="https://gametree.us14.list-manage.com/subscribe/post?u=bac3384640392bb84f9619a4b&amp;id=a3c0ea238b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate text-center" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll text-center">
+
+                        <div class="form-group text-center">
+                            <label class="sr-only" for="mce-EMAIL">Email Address </label>
+                            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control text-center" placeholder="Enter your email address">
+                        </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bac3384640392bb84f9619a4b_a3c0ea238b" tabindex="-1" value=""></div>
+                                <button type="submit" id="subscribe-button" type="submit" style="background-color: #de0030" class="mt-3 btn btn-cal-default clear" id="mc-embedded-subscribe">GET ON THE HYPETRAIN</button>
+                            </div>
+                        </form>
+                        </div>
+                            <div id="subscription-response"></div>
+                        </div>
+                               
+                                
+                                
+                                
+                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#features1" class="btn-arrow-down-round btn-o onPageNav">
+                <i class="ion-ios-arrow-down"></i>
+            </a>
+
+        </header>
+
+        <!-- ========================================
+			Love Us
+========================================== -->
+
+
+        <section class="section love-us white-bg" id="features1">
+
+            <div class="section_height section">
+                <header>
+                    <h6></h6>
+                    <h4 class="container actually_h1 revealOnScroll1">
+                        <div class="gradient_text gradient-1">GameTree makes it easy to find gamer friends</div>
+                    </h4>
+                </header>
+                <div class="section-content bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 revealOnScroll1" align="center">
+                                <div class="flex-center-normal quickcenter">
+                                    <img class="device-container" src="assets/images/screenshots/chat_en.png" alt="gametree app preview">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 revealOnScroll1">
+                                <div class="col-md-12 col-sm-6 cause-point">
+                                    <h5><img src="assets/images/icons/playing-videogames/rocket-launch.png" class="iconmax hang"> Psychological Matchmaking</h5>
+                                    <p>We use personality and playstyle to optimize your suggestions</p>
+                                </div>
+                                <!--/cause-point-->
+
+                                <div class="col-md-12 col-sm-6 cause-point">
+                                    <h5><img src="assets/images/icons/playing-videogames/big-lightning.png" class="iconmax hang"> Build Your Reputation</h5>
+                                    <p>Leveling up proves you are a reliable non-toxic player</p>
+                                </div>
+                                <!--/cause-point-->
+
+                                <div class="col-md-12 col-sm-12 cause-point">
+                                    <h5><img src="assets/images/icons/playing-videogames/speedometer.png" class="iconmax hang"> Constant improvement</h5>
+                                    <p>Machine learning helps develop your matches on the go</p>
+                                </div>
+                                <!--/cause-point-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.love-us -->
+
+        <!-- ========================================
+			Love Us
+========================================== -->
+
+
+        <section class="section section_height love-us dnd_back" id="features2">
+            <header>
+                <h6></h6>
+                <h4 class="container actually_h1 white-text revealOnScroll1">Find the games you were born to play</h4>
+            </header>
+
+            <div class="section-content bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 revealOnScroll1">
+                            <div class="col-md-12 col-sm-6 cause-point">
+                                <h5 class="white-text"> Discover Hidden Gems</h5>
+                                <p class="white-text">Play the games you will love, but would otherwise never know about</p>
+                            </div>
+                            <!--/cause-point-->
+                            <div class="col-md-12 col-sm-6 cause-point">
+                                <h5 class="white-text"> Accurate Predicted Ratings</h5>
+                                <p class="white-text">Look up exactly how much you, personally, will like a game before buying it</p>
+                            </div>
+                            <!--/cause-point-->
+                            <div class="col-md-12 col-sm-12 cause-point">
+                                <h5 class="white-text"> Find the most Relevant Reviews</h5>
+                                <p class="white-text">We make it easy to find relevant reviews from authors most similar to you</p>
+                            </div>
+                            <!--/cause-point-->
+                        </div>
+                        <div class="col-md-6 col-sm-12 revealOnScroll1" align="center">
+                            <div class="flex-center-normal quickcenter">
+                                <img class="device-container" src="assets/images/screenshots/game_en.png" alt="gametree app preview">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.love-us -->
+
+        <!-- ========================================
+			Love Us
+========================================== -->
+
+        <section class="section section_height love-us white-bg" id="features3">
+            <header>
+                <h4 class="container actually_h1 revealOnScroll1">
+                    <div class="gradient_text gradient-2">Create and Discover Gaming Sessions</div>
+                </h4>
+            </header>
+
+            <div class="section-content bg flex-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 revealOnScroll1" align="center">
+                            <div class="flex-center-normal quickcenter">
+                                <img class="device-container" src="assets/images/screenshots/sessions_en.png" alt="gametree app preview">
+                            </div>
+                        </div>
+
+                            <div class="col-md-6 col-sm-12 revealOnScroll1">
+
+                                <div class="col-md-12 col-sm-6 cause-point">
+                                    <h5> <img src="assets/images/icons/playing-videogames/swoords-crossed.png" class="iconmax hang"> Make Gaming More Meaningful</h5>
+                                    <p>Earn points and achievements by playing games with friends while unlocking hidden features</p>
+                                </div>
+                                <!--/cause-point-->
+
+                                <div class="col-md-12 col-sm-6 cause-point">
+                                    <h5><img src="assets/images/icons/playing-videogames/big-joystick.png" class="iconmax hang"> Play More Board Games</h5>
+                                    <p>Streamline the complexities of knowing who, what, where, and when to play + notifications</p>
+                                </div>
+                                <!--/cause-point-->
+
+                                <div class="col-md-12 col-sm-12 cause-point">
+                                    <h5><img src="assets/images/icons/playing-videogames/pacman-game.png" class="iconmax hang"> Sync with Facebook, Steam, and More</h5>
+                                    <p>Easily import your friends and games from other networks</p>
+                                </div>
+                                <!--/cause-point-->
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="gradient_back b-b-0 pt-5 pb-5" name="cta">
+            <div class="container my-auto">
+                <div class="row justify-content-center my-auto">
+                    <h4 class="actually-h4 actually_h1 revealOnScroll1">LETS MAKE GAMETREE A REALITY TOGETHER</h4>
+<!--
+                    <div class="col-md-6 text-center revealOnScroll1">
+                        <div class="cta-content">
+                            <h4 class="actually-h4 actually_h1 revealOnScroll1">LET'S MAKE GAMETREE A REALITY</h4>
+                        </div>
+                    </div>
+-->
+                    <div class="col-md-12 col-md-offset-3 text-center revealOnScroll1">
+                        <div class="cta-content">
+                            <div>
+                                <!-- Begin Mailchimp Signup Form -->
+                                    <div class="subscrie-box text-center">
+                        <div id="mc_embed_signup">
+                        <form action="https://gametree.us14.list-manage.com/subscribe/post?u=bac3384640392bb84f9619a4b&amp;id=a3c0ea238b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+
+                        <div class="form-group">
+                            <label class="sr-only" for="mce-EMAIL">Email Address </label>
+                            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="Enter your email address">
+                        </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bac3384640392bb84f9619a4b_a3c0ea238b" tabindex="-1" value=""></div>
+                                <button type="submit" id="subscribe-button" type="submit" style="background-color: #de0030" class="yesmargin btn btn-cal-default clear" id="mc-embedded-subscribe">NOTIFY ME ABOUT THE FUNDRAISER</button>
+                            </div>
+                        </form>
+                        </div>
+                            <div id="subscription-response"></div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section bg-color-deep testimonials" id="testimonials">
+            <div class="section-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div id="owl-testimonial" class="owl-carousel">
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">I'll personally donate to you and promote on my gaming Instagram because this is my dream app. I've wondered so long why no one could get this right. I'm absolutely ecstatic.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/1.png">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>escargoxpress</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">GameTree is a great app to use when looking for friends to play certain games with, or to just find a gaming friend in general. Developers are close with the community and everyone on it is nice.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/2.png">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Sejikuro</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">I found people to play with really fast and they shared my playstyle. Exactly what I wanted, no complaints.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/3.png">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Yale Waller</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">Great idea of using AI to form gaming pals. Works for dating why not gaming, which is arguably more important.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/6.jpeg">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Russell Schmidt</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">Found a few great people in just a short time to game and chat with. This app honestly surprised me with the matchmaking capabilities to bring not just gamers together but the right gamers together. You end up running into people you would get along with easily.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/5.png">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Sebastian Buntin</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">This is a great app to find people with similar interest. There are game tags and descriptions that can help with finding people, or allow people to find you which is awesome. I'd highly recommend this to anybody
+                                                who wants to find some buddies to play games with.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_1p.jpg">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Kyro</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">GameTree changed my life. I absolutely love GameTree. I've met new people who love the games I love. Not only that, but these people have introduced me to other games I now love! 100% recommend GameTree for
+                                                any game lover or anyone new to the gaming world looking for likeminded people.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_2p.jpg">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Appmonster1289</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">Great way to connect! Love it! Wish there had been something like that when I was younger!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_3p.jpg">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>lightofthetree</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">I absolutely love the idea behind this app, you take a very thorough personality test and you get put in touch with really great people that are looking for the same kind of experience you are. I haven't been on here long but I've already made some cool friends and it's been a really great time. I'm really excited to see what improvements and changes the awesome devs are constantly rolling out and it just keeps getting better. I highly recommend it!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/7.jpeg">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Marisa Fuentes</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">Fun and helpful app! You can find the perfect gaming friends! I absolutely recommend it. It has customizable profile options, quizzes to identify the type of gamer that you are and what kind of personality you have so that others may see. You can find game sessions to join and you can rank up in levels too! Give the app a go, I’ve met some great peeps through here!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <div class="client-info">
+                                                <h5>DareToDefyMe</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">The app is like tinder but for gamers💯💯 I highly recommend! The only problem I have is that notifications don't seem to stack so if someone msgs you multiple things then it can clog up your notification tab
+                                                real quick</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_6p.webp">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Jung Suk Bae</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content"> I've met a few friends on here so far, nothing better than easily getting gamers together without trying to hussle us for money or intrusive ads. This app is a godsend!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_7p.webp">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Ross Baumis</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">This app has been really great so far! People are so nice. Even though the user group is quite small, it seems to have dedicated users! And it is slowly growing. (:</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_8p.webp">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>Dee Dexter</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">i got alotta new friends from this.It is not just chatting or player finder,it also provides news and what kinda games your friends are playing these days.Even their platform is shown.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <figure>
+                                                <img alt="" class="img-responsive" src="assets/images/testimonial/testimonial_9p.webp">
+                                            </figure>
+                                            <div class="client-info">
+                                                <h5>BenjaminLRD</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-11">
+                                            <p class="testimonial-content">Great concept...It’s replaced Facebook Chat</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-11 user-card">
+                                            <div class="client-info">
+                                                <h5>ShadyKillar</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <!-- .owl-carousel -->
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+        </section>
+        <section class="section love-us white-bg" id="features4">
+            <header>
+                <h6></h6>
+                <h4 class="container actually_h1 revealOnScroll1">
+                    <div class="gradient_text gradient-3">
+                        WANT TO KNOW MORE?
+
+                    </div>
+                </h4>
+            </header>
+            <div class="container">
+                <div class="video-container">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/E6Lta2pVyhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               
+            </div>
+        </section>
+
+
+        <!-- /.Footer widgets -->
+        <footer id="footer" class="section footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p class="copyright">&copy; 2019 GameTree PBC</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <p class="footer-menu">
+                            <a href="terms_and_conditions/">Terms &amp; Conditions</a> | <a href="privacy_policy/">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /.footer -->
+
+    </div>
+    <!--/#zwrapper-->
+
+
+    <!-- Javascripts for main
+============================================= -->
+
+    <script src="assets/lib/components-modernizr/modernizr.js"></script>
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/lib/animsition/dist/js/animsition.min.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owlcarousel/owl-carousel/owl.carousel.js"></script>
+
+    <!-- Vide -->
+    <script src="assets/lib/vide/dist/jquery.vide.js"></script>
+
+    <!-- Core js -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- They call me Cuban Pete -->
+    <script src="assets/js/animateThingy.js"></script>
+
+
+    <script>amplitude.getInstance().logEvent(window.location.href.split('?')[0].replace('https://', ''));</script>
+
+</body>
+
+</html>
